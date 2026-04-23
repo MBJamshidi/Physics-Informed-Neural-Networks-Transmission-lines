@@ -1,0 +1,12 @@
+# requirements.txt
+# Power Cable Thermal PINN — Python dependencies
+#
+# Install with:
+#   pip install -r requirements.txt
+#
+# Tested with Python 3.9 – 3.12
+
+torch>=2.0.0          # deep learning + automatic differentiation
+numpy>=1.24.0         # numerical arrays
+matplotlib>=3.7.0     # visualisation
+scipy>=1.10.0         # optional: could be used for ODE reference or signal processing
